@@ -1,85 +1,96 @@
 {
-  "version": "2.0",
-  "id": "default",
-  "title": "Demo Config",
   "url": "./configs/config.json",
+  "version": "2.0",
+  "id": "4c85858b-aec9-4f45-a939-20c2707b2e4c",
+  "title": "Demo Config - Editing",
   "featured": [
     {
-      "name": "Featured Link",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "News",
+      "link": "https://feeder.co/reader",
+      "background": "/assets/News.jpg"
     },
     {
-      "name": "Another Featured link",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "Presentation",
+      "link": "https://sentiomnen.substack.com/",
+      "background": "/assets/Blog.jpg"
     },
     {
-      "name": "welcome to hiccup",
-      "link": "https://designedbyashw.in/test/hiccup"
+      "name": "Server cockpit",
+      "link": "https://100.107.150.20:9090/",
+      "background": "/assets/Server.jpg"
     },
     {
-      "name": "Github",
-      "background": "/assets/card.png",
-      "link": "https://github.com/ashwin-pc/hiccup",
-      "tags": "space separated tags"
+      "name": "Projects",
+      "link": "https://linear.app/souvern/team/SOU/all",
+      "background": "/assets/Project.jpg",
+      "tags": "/"
     }
   ],
   "categories": [
     {
-      "title": "Category 1",
+      "title": "Office suite",
       "links": [
         {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "Skiff mail",
+          "link": "https://app.skiff.com/mail/inbox"
         },
         {
-          "name": "Link 2",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "Syncthing",
+          "link": "https://100.107.150.20:8384/"
+        },
+        {
+          "name": "Google Drive",
+          "link": "https://drive.google.com/drive/my-drive"
+        },
+        {
+          "name": "Filen Drive",
+          "link": "https://drive.filen.io/"
         }
       ]
     },
     {
-      "title": "Category 2",
+      "title": "writing",
       "links": [
         {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "Daily Learning",
+          "link": "https://ilosin.substack.com/publish/home?utm_context=dashboard_pub_switcher"
         },
         {
-          "name": "Link 2",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "Notion",
+          "link": "https://www.notion.so"
         }
       ]
     },
     {
-      "title": "Category 3",
+      "title": "Network",
       "links": [
         {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup",
-          "tags": "more searchable tags"
+          "name": "Cloudflare",
+          "link": "https://dash.cloudflare.com/"
         }
       ]
     },
     {
-      "title": "Category 4",
+      "title": "Project Management",
       "links": [
         {
-          "name": "Link 1",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "Github",
+          "link": "https://github.com/sentiomnen"
         },
         {
-          "name": "Link 2",
-          "link": "https://www.google.com/search?q=I%27m+Feeling+Curious&csf=b&ct=ifl&cad=2:curious&ei=iin8XpLlKJi80PEPi9GtyAo&ved=0ahUKEwiS0oCHs6vqAhUYHjQIHYtoC6kQnRsIDg&rct=j"
-        },
-        {
-          "name": "Link 3",
-          "link": "https://designedbyashw.in/test/hiccup"
-        },
-        {
-          "name": "Just a long link name to make sure we are safe",
-          "link": "https://designedbyashw.in/test/hiccup"
+          "name": "GitLab",
+          "link": "https://gitlab.com/sentiomnen"
         }
       ]
     }
-  ]
+  ],
+  "metadata": {
+    "search": [
+      {
+        "type": "duckduckgo",
+        "url": "https://duckduckgo.com/?q=",
+        "name": "Duck Duck Go"
+      }
+    ]
+  }
 }
